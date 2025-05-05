@@ -1,6 +1,6 @@
 # WhiteOutBot
 
-**WhiteOutBot** is a web-based companion tool inspired by the *Whiteout Survival Discord Bot*, aimed at bringing useful in-game automation and information to players through a clean, web-based interface. Built using [Vite](https://vitejs.dev/) and [Tailwind CSS](https://tailwindcss.com/), it delivers fast performance and a smooth user experience.
+**WhiteOutBot** is a web-based companion tool inspired by the *Whiteout Survival Discord Bot*, aimed at bringing useful in-game automation and information to players through a clean, web-based interface. Built using [Vite](https://vitejs.dev/) and [Tailwind CSS](https://tailwindcss.com/), it delivers fast performance and a smooth user experience. Run the bot at: https://whiteoutbot.netlify.app/
 
 ---
 

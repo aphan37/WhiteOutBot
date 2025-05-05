@@ -1,6 +1,6 @@
 Whiteout Survival Web Companion
 
-# Overview
+## Overview
 The Whiteout Survival Web Companion transforms the existing open-source Discord bot (https://github.com/Reloisback/Whiteout-Survival-Discord-Bot) into a cloud-native, interactive web application. This platform enables players to manage alliances, redeem gift codes, detect in-game events, and execute administrative scripts directly from a browser. The project adheres to a zero-dollar budget, utilizing free-tier and open-source tools, and prioritizes a simple, mobile-friendly user experience.
 
 1.1 Objectives
@@ -19,7 +19,7 @@ Support core features: user login, event detection, script execution, gift code 
 Deploy on free-tier infrastructure with high availability and minimal latency.
 Exclude paid services, proprietary tools, or features requiring external subscriptions (e.g., premium APIs).
 
-2. Technology Stack
+## Technology Stack
 The technology stack is selected for performance, scalability, and compatibility with free-tier services, aligning with the open-source ethos of the original bot.
 2.1 Frontend
 
@@ -56,7 +56,7 @@ VS Code: IDE with Go, TypeScript, and Docker extensions.
 Postman: API testing for backend endpoints.
 Prometheus and Grafana: Monitoring for Kubernetes cluster performance (optional, if free-tier limits allow).
 
-3. Architecture
+## Architecture
 The architecture is modular, microservices-based, and optimized for free-tier deployment. It reuses the Discord bot’s logic (e.g., event polling, gift code redemption) while introducing a web-friendly structure.
 3.1 System Diagram
 [User Browser]
@@ -211,9 +211,7 @@ HTTPS via automatic SSL certificates.
 DDoS protection and WAF rules for security.
 CDN for caching static assets (e.g., Next.js build output).
 
-
-
-4. Core Features
+## Core Features
 4.1 Login
 
 Functionality:
@@ -321,8 +319,7 @@ Admin-only endpoints protected by JWT middleware.
 Audit logs for admin actions stored in events (type: admin_action).
 
 
-
-5. User Interface and User Experience
+## User Interface and User Experience
 5.1 Design Principles
 
 Minimalism: Inspired by Vercel and Stripe dashboards, with clean typography and ample whitespace.
@@ -362,7 +359,7 @@ Export button for CSV downloads.
 Enabled via prefers-color-scheme or manual toggle.
 Uses Tailwind’s dark: prefix for styling (e.g., dark:bg-gray-800).
 
-6. Testing Strategy
+## Testing Strategy
 6.1 Unit Tests
 
 Backend:
@@ -466,8 +463,7 @@ Use Cloudflare analytics for traffic.
 Optional: Deploy Prometheus/Grafana if free-tier allows.
 
 
-
-8. Future Features
+## Future Features
 
 Real-Time Syncing: Implement WebSocket for live event updates (e.g., using gorilla/websocket).
 Discord Login: Integrate OAuth2 for Discord authentication, reusing bot’s Discord logic.
@@ -475,7 +471,7 @@ Leaderboards: Visualize alliance rankings using Chart.js.
 AI Assistant: Add a chatbot for in-game tips, leveraging open-source LLMs (e.g., Hugging Face models).
 Multi-Language Support: Use i18next for internationalization (English, Spanish, etc.).
 
-9. Success Metrics
+## Success Metrics
 
 Adoption: 100 active users within 3 months of launch.
 Performance: API response time < 200ms for 95% of requests.
@@ -483,7 +479,7 @@ Reliability: 99.9% uptime, measured via Cloudflare analytics.
 User Satisfaction: 80% positive feedback on Discord server (https://discord.com/invite/h8w6N6my4a).
 Cost: Maintain $0 operational cost, verified by free-tier usage reports.
 
-10. Risks and Mitigation
+## Risks and Mitigation
 
 Game API Changes:
 Risk: Undocumented API changes break event detection or script execution.

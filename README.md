@@ -1,6 +1,6 @@
 Whiteout Survival Web Companion
 
-1. Overview
+# Overview
 The Whiteout Survival Web Companion transforms the existing open-source Discord bot (https://github.com/Reloisback/Whiteout-Survival-Discord-Bot) into a cloud-native, interactive web application. This platform enables players to manage alliances, redeem gift codes, detect in-game events, and execute administrative scripts directly from a browser. The project adheres to a zero-dollar budget, utilizing free-tier and open-source tools, and prioritizes a simple, mobile-friendly user experience.
 
 1.1 Objectives
